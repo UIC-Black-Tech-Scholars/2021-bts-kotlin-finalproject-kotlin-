@@ -13,7 +13,6 @@ class MainActivity : AppCompatActivity() {
     private var TAG = "MainActivity"
     private lateinit var listView: ListView
     private lateinit var dataList: ArrayList<ListItem>
-    private lateinit var floatingActionButton: FloatingActionButton
     private lateinit var customArrayAdapter:CustomListItemAdapter
     private var gson = Gson()
 

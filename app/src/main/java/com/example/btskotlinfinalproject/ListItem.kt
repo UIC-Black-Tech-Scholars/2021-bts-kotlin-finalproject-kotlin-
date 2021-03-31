@@ -13,5 +13,5 @@ class ListItem(t:String?, f:String?, d:String?, p:String?) {
         logo = p
     }
 
-    override fun toString(): String = org_name + ":" + email + ":" + description + ":" + logo.toString()
+    override fun toString(): String =  logo + ":" +org_name + ":" + email + ":" + description.toString()
 }
