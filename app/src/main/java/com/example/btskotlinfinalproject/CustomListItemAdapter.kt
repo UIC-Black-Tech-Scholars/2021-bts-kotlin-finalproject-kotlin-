@@ -1,7 +1,6 @@
 package com.example.btskotlinfinalproject
 
 import android.content.Context
-import android.graphics.BitmapFactory
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -17,7 +16,7 @@ class CustomListItemAdapter(context: Context, list: List<ListItem>) : ArrayAdapt
 
     override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
         val listItem: View = convertView ?: LayoutInflater.from(mContext)
-            .inflate(R.layout.custom_ui_items, parent, false)
+                .inflate(R.layout.custom_ui_items, parent, false)
         val title = listItem.findViewById<TextView>(R.id.org_name)
         val email = listItem.findViewById<TextView>(R.id.email)
         val description = listItem.findViewById<TextView>(R.id.description)
