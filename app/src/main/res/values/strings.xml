@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">BTSKotlinFinalProject</string>
+    <string name="app_name">UIC ORGANIZATIONS ON CAMPUS</string>
+    <string name="name">Black Tech Scholars</string>
+    <string name="pName">Program Name: </string>
+    <string name="info">Description: The UIC Black Tech Scholars Program started from an honest dialogue regarding racial
+        and gender disparities in the technology sector that later cultivated into a full-fledged partnership between
+        private and public entities committed to providing young people of color with the opportunity to acquire
+        transferable professional development skills and gain hands-on experiential learning opportunities.</string>
+    <string name="req">UIC ORGANIZATIONS ON CAMPUS</string>
 </resources>
