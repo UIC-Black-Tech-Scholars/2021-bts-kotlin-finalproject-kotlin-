@@ -1,5 +1,6 @@
 package com.example.btskotlinfinalproject
 
+import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
 import android.provider.AlarmClock.EXTRA_MESSAGE
@@ -37,11 +38,10 @@ class DisplayMessageActivity : AppCompatActivity() {
 
 
         contactButton = findViewById(R.id.contact_button)
-        //contactButton.setOnClickListener {
-        //  Log.d(TAG, "EMAILING")
-        //button.setBackgroundColor(Color.BLUE)
-        //backButton.setBackgroundColor(Color.BLUE)
-        //contactButton.setBackgroundColor(Color.GRAY)
-        //}
+        contactButton.setOnClickListener {
+          Log.d(TAG, "Opening email intent")
+            val intent = Intent(this, EmailActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
