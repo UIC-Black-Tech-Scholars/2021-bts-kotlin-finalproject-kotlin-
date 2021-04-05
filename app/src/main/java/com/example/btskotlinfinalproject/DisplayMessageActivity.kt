@@ -1,9 +1,7 @@
 package com.example.btskotlinfinalproject
 
 import android.content.Intent
-import android.graphics.Color
 import android.os.Bundle
-import android.provider.AlarmClock.EXTRA_MESSAGE
 import android.util.Log
 import android.widget.Button
 import android.widget.ImageView
