@@ -31,7 +31,7 @@ class DisplayMessageActivity : AppCompatActivity() {
         val textViewDesc = findViewById<TextView>(R.id.ProgramDescription).apply { text = mDesc }
 
         val logo = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqqZ2Evk-L6Z95MWah8viOh9U_ap83PbAJ1A&usqp=CAU"
-        val image : ImageView = findViewById<ImageView>(R.id.imageview)
+        val image = findViewById<ImageView>(R.id.imageview)
         Picasso.get().load(logo).into(image)
 
 
