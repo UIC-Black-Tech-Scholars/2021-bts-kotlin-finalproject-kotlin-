@@ -21,8 +21,8 @@ class CustomArrayAdapter(context: Context, list: List<ListItem>) : ArrayAdapter<
         val email = listItem.findViewById<TextView>(R.id.email)
         val description = listItem.findViewById<TextView>(R.id.description)
         val image: ImageView = listItem.findViewById(R.id.logo)
-        val resourceImage: Int = context.resources
-                .getIdentifier(items[position].logo, "drawable", context.packageName)
+        val resourceImage: Int = context.resources.getIdentifier(items[position].logo, "drawable", context.packageName)
+
         image.setImageResource(resourceImage)
 
         title.text = items[position].org_name

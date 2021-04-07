@@ -1,10 +1,13 @@
 package com.example.btskotlinfinalproject
 
-import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
+import android.view.View
 import android.widget.ListView
-import com.google.android.material.floatingactionbutton.FloatingActionButton
+import android.widget.TextView
+import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 
@@ -33,6 +36,22 @@ class MainActivity : AppCompatActivity() {
         //hook list data up to our list using array adapter
         customArrayAdapter = CustomListItemAdapter(this, dataList)
         listView.adapter = customArrayAdapter
+
+        // Start intent after listview item is clicked
+        listView.setOnItemClickListener{ parent, view, position, id ->
+            val name = dataList[position].org_name
+            val desc = dataList[position].description
+            val email = dataList[position].email
+            val logo = dataList[position].logo
+
+            val intent = Intent(this, DetailViewActivity::class.java)
+            intent.putExtra("name", name)
+            intent.putExtra("desc", desc)
+            intent.putExtra("email", email)
+            intent.putExtra("logo", logo)
+            startActivity(intent)
+            //Toast.makeText(this, "Clicked item : $desc",Toast.LENGTH_SHORT).show()
+        }
 
     }
 }
