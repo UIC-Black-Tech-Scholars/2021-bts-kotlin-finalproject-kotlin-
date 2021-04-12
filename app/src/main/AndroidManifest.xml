@@ -18,7 +18,6 @@
                 android:value=".DetailViewActivity" />
         </activity>
         <activity
-            android:theme="@style/DetailViewTheme"
             android:name=".DetailViewActivity"
             android:parentActivityName=".MainActivity">
             <!-- The meta-data tag is required if you support API level 15 and lower -->

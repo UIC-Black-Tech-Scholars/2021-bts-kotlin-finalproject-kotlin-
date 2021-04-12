@@ -21,7 +21,6 @@ class DetailViewActivity : AppCompatActivity() {
 
         val extras = intent.extras
         var mName = extras?.getString("name")
-        mName = "Program Name: $mName"
 
         val mDesc = extras?.getString("desc")
 

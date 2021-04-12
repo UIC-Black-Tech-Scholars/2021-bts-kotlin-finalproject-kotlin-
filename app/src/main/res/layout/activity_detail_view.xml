@@ -8,7 +8,7 @@
         android:id="@+id/logoView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_weight="3"
         android:background="@color/gray"
         android:textSize="20sp"/>
 
@@ -17,7 +17,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="@color/gray2"
+        android:background="@color/gray"
         android:fontFamily="@font/headland_one"
         android:textColor="@color/black"
         android:textSize="20sp"
@@ -25,7 +25,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="7"
+        android:layout_weight="5"
         android:orientation="vertical">
         <TextView
             android:id="@+id/ProgramDescTag"
@@ -33,7 +33,7 @@
             android:layout_height="0dp"
             android:layout_weight="0.5"
             android:text="@string/programTag"
-            android:background="@color/gray3"
+            android:background="@color/gray"
             android:fontFamily="@font/headland_one"
             android:textColor="@color/black"
             android:textSize="20sp"
@@ -43,11 +43,11 @@
             android:id="@+id/ProgramDescription"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="6.5"
+            android:layout_weight="4.5"
             android:fontFamily="@font/headland_one"
             android:scrollbars="vertical"
-            android:textColor="@color/white"
-            android:background="@color/gray4"
+            android:textColor="@color/black"
+            android:background="@color/gray"
             android:textSize="20sp"
             android:textStyle="bold|italic" />
         </LinearLayout>
