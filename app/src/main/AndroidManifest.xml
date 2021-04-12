@@ -11,11 +11,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BTSKotlinFinalProject">
-        <activity android:name=".EmailActivity" android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".EmailActivity" android:parentActivityName=".DetailViewActivity">
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DetailViewActivity" />
+        </activity>
         <activity
-            android:name=".DisplayMessageActivity"
+            android:theme="@style/DetailViewTheme"
+            android:name=".DetailViewActivity"
             android:parentActivityName=".MainActivity">
-
             <!-- The meta-data tag is required if you support API level 15 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
