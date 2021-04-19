@@ -1,4 +1,4 @@
-package com.example.btskotlinfinalproject
+package com.chaoticdevelopment.uicorgsearch
 
 import android.content.Intent
 import android.net.Uri

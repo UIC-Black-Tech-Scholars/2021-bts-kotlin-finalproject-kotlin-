@@ -1,12 +1,9 @@
-package com.example.btskotlinfinalproject
+package com.chaoticdevelopment.uicorgsearch
 
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
-import android.view.View
 import android.widget.ListView
-import android.widget.TextView
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken

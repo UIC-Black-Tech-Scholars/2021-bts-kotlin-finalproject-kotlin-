@@ -1,4 +1,4 @@
-package com.example.btskotlinfinalproject
+package com.chaoticdevelopment.uicorgsearch
 
 import org.junit.Test
 

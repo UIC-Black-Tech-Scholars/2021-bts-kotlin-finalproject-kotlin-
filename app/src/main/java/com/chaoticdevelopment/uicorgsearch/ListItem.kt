@@ -1,4 +1,4 @@
-package com.example.btskotlinfinalproject
+package com.chaoticdevelopment.uicorgsearch
 
 class ListItem(t:String?, f:String?, d:String?, p:String?) {
     var org_name:String?=null

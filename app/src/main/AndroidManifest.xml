@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.btskotlinfinalproject">
+    package="com.chaoticdevelopment.uicorgsearch">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -11,21 +11,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BTSKotlinFinalProject">
-        <activity android:name=".EmailActivity" android:parentActivityName=".DetailViewActivity">
+        <activity android:name="com.chaoticdevelopment.uicorgsearch.EmailActivity" android:parentActivityName="com.chaoticdevelopment.uicorgsearch.DetailViewActivity">
             <!-- The meta-data tag is required if you support API level 15 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".DetailViewActivity" />
+                android:value="com.chaoticdevelopment.uicorgsearch.DetailViewActivity" />
         </activity>
         <activity
-            android:name=".DetailViewActivity"
-            android:parentActivityName=".MainActivity">
+            android:name="com.chaoticdevelopment.uicorgsearch.DetailViewActivity"
+            android:parentActivityName="com.chaoticdevelopment.uicorgsearch.MainActivity">
             <!-- The meta-data tag is required if you support API level 15 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value="com.chaoticdevelopment.uicorgsearch.MainActivity" />
         </activity>
-        <activity android:name=".MainActivity">
+        <activity android:name="com.chaoticdevelopment.uicorgsearch.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -1,4 +1,4 @@
-package com.example.btskotlinfinalproject
+package com.chaoticdevelopment.uicorgsearch
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

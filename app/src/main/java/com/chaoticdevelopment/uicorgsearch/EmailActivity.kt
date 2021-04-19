@@ -1,6 +1,5 @@
-package com.example.btskotlinfinalproject
+package com.chaoticdevelopment.uicorgsearch
 
-import android.R.attr.button
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
